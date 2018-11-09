@@ -20,7 +20,6 @@
 
   <ItemGroup>
     <Folder Include="Steps\" />
-    <Folder Include="Secifications\" />
   </ItemGroup>
 
 </Project>

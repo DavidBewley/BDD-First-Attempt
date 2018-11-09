@@ -1,0 +1,6 @@
+﻿User Stories:
+
+- As a user I want to be able to change the list of items which are on sale so that the list of items sold changes
+- As a user I want to be able to make a transaction of items so that a record of sales are generated and a sale amount is calculated
+- As a user I want to be able to change a the list of customers availible to sell to so that sales to new customers are possible
+- As a user I want to be able to see previous transactions so that I know what items have been sold to which customers

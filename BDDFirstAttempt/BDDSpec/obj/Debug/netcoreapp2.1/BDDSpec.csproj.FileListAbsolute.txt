@@ -5,7 +5,9 @@ D:\BDD-First-Attempt\BDDFirstAttempt\BDDSpec\bin\Debug\netcoreapp2.1\BDDSpec.dep
 D:\BDD-First-Attempt\BDDFirstAttempt\BDDSpec\bin\Debug\netcoreapp2.1\BDDSpec.runtimeconfig.json
 D:\BDD-First-Attempt\BDDFirstAttempt\BDDSpec\bin\Debug\netcoreapp2.1\BDDSpec.runtimeconfig.dev.json
 D:\BDD-First-Attempt\BDDFirstAttempt\BDDSpec\bin\Debug\netcoreapp2.1\BDDSpec.dll
-D:\BDD-First-Attempt\BDDFirstAttempt\BDDSpec\obj\Debug\netcoreapp2.1\BDDSpec.csprojAssemblyReference.cache
 D:\BDD-First-Attempt\BDDFirstAttempt\BDDSpec\obj\Debug\netcoreapp2.1\BDDSpec.csproj.CoreCompileInputs.cache
 D:\BDD-First-Attempt\BDDFirstAttempt\BDDSpec\obj\Debug\netcoreapp2.1\BDDSpec.AssemblyInfoInputs.cache
 D:\BDD-First-Attempt\BDDFirstAttempt\BDDSpec\obj\Debug\netcoreapp2.1\BDDSpec.AssemblyInfo.cs
+D:\BDD-First-Attempt\BDDFirstAttempt\BDDSpec\bin\Debug\netcoreapp2.1\BDDSpec.pdb
+D:\BDD-First-Attempt\BDDFirstAttempt\BDDSpec\obj\Debug\netcoreapp2.1\BDDSpec.dll
+D:\BDD-First-Attempt\BDDFirstAttempt\BDDSpec\obj\Debug\netcoreapp2.1\BDDSpec.pdb

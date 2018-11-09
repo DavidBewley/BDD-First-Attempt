@@ -11,3 +11,4 @@ D:\BDD-First-Attempt\BDDFirstAttempt\BDDSpec\obj\Debug\netcoreapp2.1\BDDSpec.Ass
 D:\BDD-First-Attempt\BDDFirstAttempt\BDDSpec\bin\Debug\netcoreapp2.1\BDDSpec.pdb
 D:\BDD-First-Attempt\BDDFirstAttempt\BDDSpec\obj\Debug\netcoreapp2.1\BDDSpec.dll
 D:\BDD-First-Attempt\BDDFirstAttempt\BDDSpec\obj\Debug\netcoreapp2.1\BDDSpec.pdb
+D:\BDD-First-Attempt\BDDFirstAttempt\BDDSpec\obj\Debug\netcoreapp2.1\BDDSpec.csprojAssemblyReference.cache

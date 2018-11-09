@@ -1,0 +1,14 @@
+D:\BDD-First-Attempt\BDDFirstAttempt\TillApi\bin\Debug\netcoreapp2.1\TillApi.deps.json
+D:\BDD-First-Attempt\BDDFirstAttempt\TillApi\bin\Debug\netcoreapp2.1\TillApi.runtimeconfig.json
+D:\BDD-First-Attempt\BDDFirstAttempt\TillApi\bin\Debug\netcoreapp2.1\TillApi.runtimeconfig.dev.json
+D:\BDD-First-Attempt\BDDFirstAttempt\TillApi\bin\Debug\netcoreapp2.1\TillApi.dll
+D:\BDD-First-Attempt\BDDFirstAttempt\TillApi\obj\Debug\netcoreapp2.1\TillApi.csprojAssemblyReference.cache
+D:\BDD-First-Attempt\BDDFirstAttempt\TillApi\obj\Debug\netcoreapp2.1\TillApi.csproj.CoreCompileInputs.cache
+D:\BDD-First-Attempt\BDDFirstAttempt\TillApi\obj\Debug\netcoreapp2.1\TillApi.RazorAssemblyInfo.cache
+D:\BDD-First-Attempt\BDDFirstAttempt\TillApi\obj\Debug\netcoreapp2.1\TillApi.RazorAssemblyInfo.cs
+D:\BDD-First-Attempt\BDDFirstAttempt\TillApi\obj\Debug\netcoreapp2.1\TillApi.AssemblyInfoInputs.cache
+D:\BDD-First-Attempt\BDDFirstAttempt\TillApi\obj\Debug\netcoreapp2.1\TillApi.AssemblyInfo.cs
+D:\BDD-First-Attempt\BDDFirstAttempt\TillApi\obj\Debug\netcoreapp2.1\TillApi.RazorTargetAssemblyInfo.cache
+D:\BDD-First-Attempt\BDDFirstAttempt\TillApi\bin\Debug\netcoreapp2.1\TillApi.pdb
+D:\BDD-First-Attempt\BDDFirstAttempt\TillApi\obj\Debug\netcoreapp2.1\TillApi.dll
+D:\BDD-First-Attempt\BDDFirstAttempt\TillApi\obj\Debug\netcoreapp2.1\TillApi.pdb

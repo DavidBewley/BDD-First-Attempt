@@ -4,7 +4,7 @@
 Scenario: User wants to create a transaction of items
 	Given the user has access to the system
 	When the user selects items called "Apple", "Pear" and "Banana" to be sold
-	Then the transaction is made and added to the history of transactions. 
+	Then the transaction is made and added to the history of transactions
 	And The total sale price is returned to the user
 
 Scenario: User wants to see the most recent previous transactions

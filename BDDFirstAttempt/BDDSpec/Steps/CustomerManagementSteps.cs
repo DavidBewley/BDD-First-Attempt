@@ -20,28 +20,28 @@ namespace BDDSpec.Steps
 
         }
 
-        [When("the user requests to see the details of the customer with Id 1")]
-        public void UserRequestsOneCustomer()
+        [When(@"the user requests to see the details of the customer with Id (-?\d+)")]
+        public void UserRequestsOneCustomer(int id)
         {
 
         }
 
-        [When("the user requests the creation of a new customer with the following details FirstName:\"John\" Surname: \"Smith\" EmailAddress\"John.Smith@email.co.uk\"")]
-        public void UserRequestsNewCustomer()
+        [When("the user requests the creation of a new customer with the following details FirstName:\"(.*?)\" Surname:\"(.*?)\" EmailAddress:\"(.*?)\"")]
+        public void UserRequestsNewCustomer(string forename, string surname, string email)
         {
 
         }
 
-        [When("the user requests an edit of a customer with the Id 1 to the following details FirstName:\"Jane\" Surname: \"Smith\" EmailAddress\"Jane.Smith@email.co.uk\"")]
-        public void UserRequestsUpdateToCustomer()
+        [When("the user requests an edit of a customer with the Id (-?\\d+) to the following details FirstName:\"(.*?)\" Surname:\"(.*?)\" EmailAddress:\"(.*?)\"")]
+        public void UserRequestsUpdateToCustomer(int id, string forename, string surname, string email)
         {
 
         }
 
-        [When("the user requests the customer with Id 1 is removed from the active customers list")]
-        public void UserRequestsDeletionOfCustomer()
+        [When(@"the user requests the customer with Id (-?\d+) is removed from the active customers list")]
+        public void UserRequestsDeletionOfCustomer(int id)
         {
-
+            int newid = id;
         }
 
         [Then("a list of all current customers is shown")]
@@ -50,8 +50,8 @@ namespace BDDSpec.Steps
 
         }
 
-        [Then("the user with Id 1 is returned")]
-        public void ShowSingleCustomerFromId()
+        [Then(@"the user with Id (-?\d+) is returned")]
+        public void ShowSingleCustomerFromId(int id)
         {
 
         }
@@ -68,8 +68,8 @@ namespace BDDSpec.Steps
 
         }
 
-        [Then("the customer with Id 1 is removed from the active customer list")]
-        public void RemovedCustomerNotInCustomerList()
+        [Then(@"the customer with Id (-?\d+) is removed from the active customer list")]
+        public void RemovedCustomerNotInCustomerList(int id)
         {
 
         }

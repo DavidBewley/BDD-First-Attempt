@@ -25,6 +25,10 @@ namespace TillApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            services.AddTransient<DataAccessLayer.Interfaces.ICustomerRepo, DataAccessLayer.Production.CustomerRepo>();
+            services.AddTransient<DataAccessLayer.Interfaces.ISaleItemRepo, DataAccessLayer.Production.SaleItemRepo>();
+            services.AddTransient<DataAccessLayer.Interfaces.ITransactionRepo, DataAccessLayer.Production.TransactionRepo>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

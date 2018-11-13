@@ -28,7 +28,8 @@
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
           "Microsoft.NETCore.App": "2.1.0",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.5"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.5",
+          "Newtonsoft.Json": "11.0.2"
         },
         "runtime": {
           "TillApi.dll": {}

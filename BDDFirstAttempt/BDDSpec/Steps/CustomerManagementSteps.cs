@@ -2,22 +2,41 @@
 using System.Collections.Generic;
 using System.Text;
 using Xunit.Gherkin.Quick;
+using TillApi.Models;
+using TillApi.DataAccessLayer.Interfaces;
+using TillApi.DataAccessLayer.Production;
+using Moq;
+using FluentAssertions;
+using System.Linq;
 
 namespace BDDSpec.Steps
 {
     [FeatureFile("./Specifications/CustomerManagement.feature")]
     public class CustomerManagementSteps : Feature
     {
+        #region DummyData
+        Customer customerOne = new Customer();
+        #endregion
+
+        ICustomerRepo customerRepo;
+        List<Customer> customerList;
+        Customer singleCustomer;
+        int customerId;
+
         [Given("the user has access to the system")]
         public void UserHasAccess()
         {
-
+            customerRepo = new CustomerRepo();
         }
 
         [When("the user requests a list of all customers")]
         public void UserRequestsAllCustomers()
         {
+            var moq = new Mock<ICustomerRepo>();
+            moq.Setup(o => o.GetAllCustomers()).Returns(new List<Customer>() { customerOne });
+            customerRepo = moq.Object;
 
+            customerList = customerRepo.GetAllCustomers();
         }
 
         [When(@"the user requests to see the details of the customer with Id (-?\d+)")]
@@ -47,7 +66,7 @@ namespace BDDSpec.Steps
         [Then("a list of all current customers is shown")]
         public void ListAllCurrentCustomers()
         {
-
+            customerList.Count().Should().Be(1);
         }
 
         [Then(@"the user with Id (-?\d+) is returned")]
